@@ -1,3 +1,0 @@
-**Design**
-
-behaviour encapsulation for image prefab and 3D prefabs

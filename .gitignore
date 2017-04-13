@@ -30,5 +30,11 @@ sysinfo.txt
 *.unitypackage
 
 Assets/*/
-!Assets/Scripts/
+!Assets/_Scripts/
+!Assets/_Scenes/
+!Assets/Resources/
+!Assets/screenshots/
+!Assets/Snapshots/
+!Assets/google-services.json
+!Assets/GoogleVRForUnity.unitypackage
 *.meta

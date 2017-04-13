@@ -36,4 +36,5 @@ Assets/*/
 !Assets/screenshots/
 !Assets/Snapshots/
 !Assets/google-services.json
+!Assets/GoogleVRForUnity.unitypackage
 *.meta

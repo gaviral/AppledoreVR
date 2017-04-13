@@ -6,9 +6,9 @@ Assets/Resources/                    : For Resource.Load() (required here for te
 Assets/Plugins/                      : Don't know what this is for (needs to be looked into)
 Assets/screenshots/                  : For testing purposes (needs to be changed)
 Assets/Snapshots/                    : The one above or this one is useless
-BACKUP/PlayServicesResolver/         : For Android (pending deletion)
+Assets/PlayServicesResolver/         : For resolving firebase errors
 Assets/google-services.json          : For Firebase connections (not sure; so look into this too)
-Assets/
+
 
 
 **Assets** 

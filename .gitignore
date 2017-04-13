@@ -30,7 +30,7 @@ sysinfo.txt
 *.unitypackage
 
 Assets/*/
-!Assets/_Scripts/
+!Assets/Scripts/
 !Assets/_Scenes/
 !Assets/Resources/
 !Assets/screenshots/

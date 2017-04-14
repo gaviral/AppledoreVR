@@ -37,4 +37,3 @@ Assets/*/
 !Assets/Snapshots/
 !Assets/PlayServicesResolver/
 !Assets/google-services.json
-*.meta

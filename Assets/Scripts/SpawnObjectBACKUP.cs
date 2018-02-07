@@ -40,7 +40,7 @@ public class SpawnObject : MonoBehaviour {
     }
 
     public void placeMnemonic() {
-        Vector3 forward = InputTracking.GetLocalRotation(VRNode.CenterEye) * cam.transform.forward;
+        Vector3 forward = UnityEngine.XR.InputTracking.GetLocalRotation(UnityEngine.XR.XRNode.CenterEye) * cam.transform.forward;
         Vector3 spawnPos = cam.transform.position + forward * 2;
 
         GameObject mnemonic = generateMnemonic();
@@ -59,7 +59,7 @@ public class SpawnObject : MonoBehaviour {
         Debug.Log("Clicked");
         var filename = "screenshot.png";
         var path = "/Snapshots/" + filename;
-        Application.CaptureScreenshot(path);
+        ScreenCapture.CaptureScreenshot(path);
     }
 
     public void selectMnemonic(string newMnemonic) {

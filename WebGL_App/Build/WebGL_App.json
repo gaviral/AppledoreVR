@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "AppledoreVR",
+"dataUrl": "WebGL_App.data.unityweb",
+"asmCodeUrl": "WebGL_App.asm.code.unityweb",
+"asmMemoryUrl": "WebGL_App.asm.memory.unityweb",
+"asmFrameworkUrl": "WebGL_App.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

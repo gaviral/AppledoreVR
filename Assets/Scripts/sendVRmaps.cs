@@ -22,7 +22,7 @@ public class sendVRmaps : MonoBehaviour {
 		Debug.Log ("Hello");
 		var filename = "screenshot.png";
 		var path = Application.persistentDataPath + "/Snapshots/" + filename;
-		Application.CaptureScreenshot(path);
+		ScreenCapture.CaptureScreenshot(path);
 	}
     void LateUpdate() {
         Camera camera1 = GetComponent<Camera>();
